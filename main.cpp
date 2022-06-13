@@ -23,7 +23,7 @@ int main() {
     sum++;
   }
 
-  cout<<"\n\n4. Cik reizes nostrādās cikls?\nfor(int i=0; i<5; i++)\na. 4\nb. 5\nc. 1\nd. 0\n\n";
+  cout<<"\n\n4. Cik reizes nostrādās cikls?\n\tfor(int i=0; i<5; i++)\n\na. 4\nb. 5\nc. 1\nd. 0\n\n";
   cin>>atb4;
   if(atb4=="b"){
     sum++;
@@ -38,6 +38,12 @@ int main() {
   cout<<"\n\n6. Kāds ir i++ ekvivalents?\na. i=i+i\nb. i=i+1\nc. i=i-1\nd. i--\n\n";
   cin>>atb6;
   if(atb6=="b"){
+    sum++;
+  }
+
+  cout<<"\n\n7. Kas ir nepareizi?\n\tfor (int k = 2, k <= 12, k++)\n\na. Cikls ir uzrakstīts pareizi\nb. Mainīgajam vienmēr jābūt burtam i, ja izmanto for ciklu\nc. Beigās jābūt semikolam\nd. Jāizmanto semikolus, nevis komatus\n\n";
+  cin>>atb7;
+  if(atb7=="d"){
     sum++;
   }
 
