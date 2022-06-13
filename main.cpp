@@ -35,4 +35,10 @@ int main() {
     sum++;
   }
 
+  cout<<"\n\n6. Kāds ir i++ ekvivalents?\na. i=i+i\nb. i=i+1\nc. i=i-1\nd. i--\n\n";
+  cin>>atb6;
+  if(atb6=="b"){
+    sum++;
+  }
+
 }
