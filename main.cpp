@@ -59,4 +59,9 @@ int main() {
     sum++;
   }
 
+  cout<<"\n\n10. Ko izvadīs cikls?\nfor(i = 100; i >= 0; i-=10){\ncout<<i<<\", \";\n}\n\na. 100, 90, 80, 70, 60, 50, 40, 20, 10, 0,\nb. 100, 90, 80, 70, 60, 50, 40, 20, 10,\nc. 90, 80, 70, 60, 50, 40, 20, 10, 0,\nd. Neviens no minētajiem";
+  cin>>atb10;
+  if(atb10=="a"){
+    sum++;
+  }
 }
