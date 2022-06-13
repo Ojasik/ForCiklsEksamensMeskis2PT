@@ -29,4 +29,10 @@ int main() {
     sum++;
   }
 
+  cout<<"\n\n5. Kurš cikls nenostrādās nevienu reizi?\na. for(int i = 0; i < 5; i++)\nb. for(int i = 5; i <= 10; i++)\nc. for(int i = 10; i < 10; i++)\nd. for(int i = 0; i < 10; i++)\n\n";
+  cin>>atb5;
+  if(atb5=="c"){
+    sum++;
+  }
+
 }
