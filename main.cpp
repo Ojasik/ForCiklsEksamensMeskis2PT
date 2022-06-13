@@ -17,5 +17,11 @@ int main() {
     sum++;
   }
 
+  cout<<"\n\n3. Ja jūs gribāt sākt no 100 un beigās iegūst 3, kāds cikls būs pareizs?\na. for(int i = 0; i < 100; i+3)\nb. for(int i = 3; i > 100; i--)\nc. for(int i = 100; i < 3; i++)\nd. for(int i = 100; i > 3; i--)\n\n";
+  cin>>atb3;
+  if(atb3=="d"){
+    sum++;
+  }
+
 
 }
