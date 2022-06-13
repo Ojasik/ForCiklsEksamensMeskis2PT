@@ -11,4 +11,11 @@ int main() {
     sum++;
   }
 
+  cout<<"\n\n2. Kurš for cikls ir uzrakstīts pareizi?\na. for(int i = 0; i < 12)\nb. for(int j = 0; j < 12; j++)\nc. for(int q; q<j; ++)\nd. for(int; int j++; j < 3)\n\n";
+  cin>>atb2;
+  if(atb2=="b"){
+    sum++;
+  }
+
+
 }
