@@ -47,4 +47,10 @@ int main() {
     sum++;
   }
 
+  cout<<"\n\n8. Vai for cikls var saturēt for ciklu?\na. Jā\nb. Ne\nc. Kompilēšanas kļūda\nd. Runtime kļūda\n\n";
+  cin>>atb8;
+  if(atb8=="a"){
+    sum++;
+  }
+
 }
