@@ -53,4 +53,10 @@ int main() {
     sum++;
   }
 
+  cout<<"\n\n9. Cik reizes nostrādās cikls?\n\tfor(int i = 0; i = 3; x++)\n\na. 3\nb. 4\nc. Cikls darbosies bezgalīgi\nd. 0\n\n";
+  cin>>atb9;
+  if(atb9=="c"){
+    sum++;
+  }
+
 }
