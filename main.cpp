@@ -23,5 +23,10 @@ int main() {
     sum++;
   }
 
+  cout<<"\n\n4. Cik reizes nostrādās cikls?\nfor(int i=0; i<5; i++)\na. 4\nb. 5\nc. 1\nd. 0\n\n";
+  cin>>atb4;
+  if(atb4=="b"){
+    sum++;
+  }
 
 }
