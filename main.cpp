@@ -53,15 +53,54 @@ int main() {
     sum++;
   }
 
-  cout<<"\n\n9. Cik reizes nostrādās cikls?\n\tfor(int i = 0; i = 3; x++)\n\na. 3\nb. 4\nc. Cikls darbosies bezgalīgi\nd. 0\n\n";
+  cout<<"\n\n9. Cik reizes nostrādās cikls?\n\tfor(int i = 0; i = 3; i++)\n\na. 3\nb. 4\nc. Cikls darbosies bezgalīgi\nd. 0\n\n";
   cin>>atb9;
   if(atb9=="c"){
     sum++;
   }
 
-  cout<<"\n\n10. Ko izvadīs cikls?\nfor(i = 100; i >= 0; i-=10){\ncout<<i<<\", \";\n}\n\na. 100, 90, 80, 70, 60, 50, 40, 20, 10, 0,\nb. 100, 90, 80, 70, 60, 50, 40, 20, 10,\nc. 90, 80, 70, 60, 50, 40, 20, 10, 0,\nd. Neviens no minētajiem";
+  cout<<"\n\n10. Ko izvadīs cikls?\nfor(i = 100; i >= 0; i-=10){\ncout<<i<<\", \";\n}\n\na. 100, 90, 80, 70, 60, 50, 40, 20, 10, 0,\nb. 100, 90, 80, 70, 60, 50, 40, 20, 10,\nc. 90, 80, 70, 60, 50, 40, 20, 10, 0,\nd. Neviens no minētajiem\n\n";
   cin>>atb10;
   if(atb10=="a"){
     sum++;
   }
+  if(sum!=10){
+    cout<<"\n\nJūs atbildejat pareizi uz "<<sum<<" jautājumiem\n";
+    cout<<"\nJūs atbildejat nepareizi uz šiem jautājumiem: \n";
+
+  if(atb1!="c"){
+    cout<<"1\n";
+  }
+  if(atb2!="b"){
+    cout<<"2\n";
+  }
+  if(atb3!="d"){
+    cout<<"3\n";
+  }
+  if(atb4!="b"){
+    cout<<"4\n";
+  }
+  if(atb5!="c"){
+    cout<<"5\n";
+  }
+  if(atb6!="b"){
+    cout<<"6\n";
+  }
+  if(atb7!="d"){
+    cout<<"7\n";
+  }
+  if(atb8!="a"){
+    cout<<"8\n";
+  }
+  if(atb9!="c"){
+    cout<<"9\n";
+  }
+  if(atb10!="a"){
+    cout<<"10\n";
+  }
+    }
+  else{
+    cout<<"Viss ir pareizi!";
+  }
+
 }
