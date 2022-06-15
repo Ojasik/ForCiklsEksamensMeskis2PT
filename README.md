@@ -1,4 +1,4 @@
-# ForCiklsEksamens
+# For cikls eksamens
 
 Šīs projekts ir neliels tests par tēmu - Cikls ar skaitītāju programmēšanas valodā C++
 
